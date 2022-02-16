@@ -132,22 +132,20 @@ int main()
         }
         else if (z == 3)
         {
-            printf("Are you sure you want to close the phone book\n");
-            printf("Press 1 for yes\n");
-            printf("Press 2 for no\n");
-
+            printf("Are you sure you want to close the phone book?\n");
+            printf("Yes(1) / No(2));
             int ans;
-            printf("Enter\n");
+            printf("Enter: \n");
             printf("%d", &ans);
 
             if (ans == 1)
             {
-                printf("The phone book has closed\n");
+                printf("The phone book has closed!\n");
                 printf("Have a good day!");            
             }
             else if (ans == 2)
             {
-                printf("The phone book has not closed\n");
+                printf("The phone book has not closed!\n");
                 printf("You can continue!\n");
             }
         } 
@@ -155,7 +153,7 @@ int main()
 
     else
     {
-        printf("In-Valid");
+        printf("In-Valid!");
     }
 
     return 0;
