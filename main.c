@@ -150,8 +150,6 @@ int main()
                 printf("The phone book has not closed\n");
                 printf("You can continue!\n");
             }
-
-            
         } 
     }
 
