@@ -118,15 +118,15 @@ int main()
 
                 printf("---------------------------\n");
                 printf("Name: ");
-                printf("%s", na);
+                printf("%s\n", na);
                 printf("Age: ");
-                printf("%d", ag);
+                printf("%d\n", ag);
                 printf("Phone Number: ");
-                printf("%d", ph);
+                printf("%d\n", ph);
                 printf("Date of Birth: ");
-                printf("%d", da);
+                printf("%d\n", da);
                 printf("Address: ");
-                printf("%s", addr);   
+                printf("%s\n", addr);   
                 printf("---------------------------\n"); 
             }
         }
